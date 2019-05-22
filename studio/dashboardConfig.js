@@ -6,7 +6,7 @@ export default {
         templateRepoId: 'sanity-io/sanity-template-gatsby-portfolio'
       }
     },
-    {name: 'structure-menu'},
+    { name: 'structure-menu' },
     {
       name: 'project-info',
       options: {
@@ -20,13 +20,15 @@ export default {
                 {
                   buildHookId: '5ce33612dbc89c9aca982ec7',
                   title: 'Sanity Studio',
-                  name: 'sanity-gatsby-portfolio-studio-xdodw2r4',
+                  // name: 'sanity-gatsby-portfolio-studio-xdodw2r4',
+                  name: 'dev-sanity-gatsby-portfolio-studio',
                   apiId: 'a6d1cc51-cabc-48f7-be14-e6b653a2be9d'
                 },
                 {
                   buildHookId: '5ce33612c3de08555e016f7c',
                   title: 'Portfolio Website',
-                  name: 'sanity-gatsby-portfolio-web-cc7yeybu',
+                  // name: 'sanity-gatsby-portfolio-web-cc7yeybu',
+                  name: 'dev-sanity-gatsby-portfolio-web',
                   apiId: 'a6fe2db3-bc46-4ca4-8acd-03e0ddfdbfc3'
                 }
               ]
@@ -39,15 +41,19 @@ export default {
             value: 'https://github.com/kwkistler/sanity-gatsby-portfolio',
             category: 'Code'
           },
-          {title: 'Frontend', value: 'https://sanity-gatsby-portfolio-web-cc7yeybu.netlify.com', category: 'apps'}
+          {
+            title: 'Frontend',
+            value: 'https://sanity-gatsby-portfolio-web-cc7yeybu.netlify.com',
+            category: 'apps'
+          }
         ]
       }
     },
-    {name: 'project-users', layout: {height: 'auto'}},
+    { name: 'project-users', layout: { height: 'auto' } },
     {
       name: 'document-list',
-      options: {title: 'Recent projects', order: '_createdAt desc', types: ['project']},
-      layout: {width: 'medium'}
+      options: { title: 'Recent projects', order: '_createdAt desc', types: ['project'] },
+      layout: { width: 'medium' }
     }
   ]
-}
+};
