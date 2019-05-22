@@ -43,7 +43,8 @@ export default {
           },
           {
             title: 'Frontend',
-            value: 'https://sanity-gatsby-portfolio-web-cc7yeybu.netlify.com',
+            // value: 'https://sanity-gatsby-portfolio-web-cc7yeybu.netlify.com',
+            value: 'https://dev-sanity-gatsby-portfolio-web.netlify.com',
             category: 'apps'
           }
         ]
