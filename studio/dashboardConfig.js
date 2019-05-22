@@ -20,15 +20,13 @@ export default {
                 {
                   buildHookId: '5ce33612dbc89c9aca982ec7',
                   title: 'Sanity Studio',
-                  // name: 'sanity-gatsby-portfolio-studio-xdodw2r4',
-                  name: 'dev-sanity-gatsby-portfolio-studio',
+                  name: 'sanity-gatsby-portfolio-studio-xdodw2r4',
                   apiId: 'a6d1cc51-cabc-48f7-be14-e6b653a2be9d'
                 },
                 {
                   buildHookId: '5ce33612c3de08555e016f7c',
                   title: 'Portfolio Website',
-                  // name: 'sanity-gatsby-portfolio-web-cc7yeybu',
-                  name: 'dev-sanity-gatsby-portfolio-web',
+                  name: 'sanity-gatsby-portfolio-web-cc7yeybu',
                   apiId: 'a6fe2db3-bc46-4ca4-8acd-03e0ddfdbfc3'
                 }
               ]
@@ -43,8 +41,7 @@ export default {
           },
           {
             title: 'Frontend',
-            // value: 'https://sanity-gatsby-portfolio-web-cc7yeybu.netlify.com',
-            value: 'https://dev-sanity-gatsby-portfolio-web.netlify.com',
+            value: 'https://sanity-gatsby-portfolio-web-cc7yeybu.netlify.com',
             category: 'apps'
           }
         ]
